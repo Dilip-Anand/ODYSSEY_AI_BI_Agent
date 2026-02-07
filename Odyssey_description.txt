@@ -1,0 +1,16 @@
+Welcome to Odyssey your comprehensive retail analytics ecosystem built on 5 interconnected tables spanning sales transactions, product hierarchies, store locations, and warranty claims. This dataset enables Odyssey to answer complex business questions through natural language queries, generating instant dashboards without requiring users to understand table relationships or write SQL.
+
+Sales Table (Transaction Backbone)
+Purpose: Complete record of every product sale across all stores
+
+Product Category Table (Business Hierarchy)
+Purpose: Organizes products into meaningful business categories
+
+Product Table (Item Master)
+Purpose: Detailed product specifications and pricing
+
+Stores Table (Geographic Dimension)
+Purpose: Store network with location intelligence
+
+Warranty Table (Customer Experience)
+Purpose: Tracks product failures and repair outcomes
