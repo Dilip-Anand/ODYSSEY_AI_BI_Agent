@@ -1,0 +1,50 @@
+* When a user asks for growth of company they are interested in year by year revenue.
+Always translate business terms:
+COUNT(sale_id) as "Total sales"
+SUM(product_quantity_sold * Price) → "Total Revenue"
+COUNT(claim_id)/COUNT(sale_id) → "Total Claim rate %"
+
+* When a user asks for growth of a particular year they are interested in month by month revenue in that year.
+
+* month name in sale_month 
+1 = 'January'
+2 = 'February'
+3 = 'March'
+4 = 'April'
+5 = 'May'
+6 = 'June'
+7 = 'July'
+8 = 'August'
+9 = 'September'
+10 = 'October'
+11 = 'November'
+12 = 'December'
+
+* Quarter in sale_month
+1,2,3 = 'First Quarter' or 'Q1'
+4,5,6 = 'Second Quarter' or 'Q2'
+7,8,9 = 'Third Quarter' or 'Q3'
+10,11,12 = 'Last Quarter' or 'Q4'
+
+* For forecasting and predict questions, always show:
+1. Historical trend (2023-2024) + 2025 prediction
+2. Growth rate assumption
+3. Use sales_forecast_2025 view first
+4. For any predict using the historical trends use the previous available year as the base year for projection. 
+
+* PII GOVERNANCE RULES:
+1. NEVER show raw data for sale_id, email and phone_no from sales table
+2. If column tag pii_flag : true detected the response = "You don't have access to PII columns. Masking applied"
+3. In any query if column sale_id is detected, never run the select sale_id column query. Show all other columns instead
+4. Use the "sales_governed" dataset while creating query with phone_no or email
+5. Block queries asking for "customer details", "contact info", "email", "phone no" and "phone number"
+
+* For SUMMARY OR INSIGHTS always provide the below all 8 details:
+1. Give the total revenue of the year.
+2. What is the difference between revenue of current year and previous year.
+3. Based on the revenue the Growth is positive or negative.
+4. Which region has the highest and lowest revenue. what was the revenue of the same regions for previous years. 
+5. Which product is selling more and least.
+6. What is the claim rate of the mentioned year and which product has the more claims.
+7. What is the predicted revenue for the next year.
+8. Which store sold the most no of products. 
