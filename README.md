@@ -1,6 +1,8 @@
 # ODYSSEY - The Data Explorer AI/BI Agent
 Odyssey is a "Talk to your Data" application using the AI/BI Genie and Databricks Dashboards. This agent should allow business users to ask ad-hoc, natural language questions about key performance indicators (KPIs) and receive dynamic, context-aware insights, moving beyond static reports.
+<br>
 
+<img width="600" height="325" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/fffbbdff.png" />
 Odyssey is an AI-powered comprehensive retail analytics ecosystem built on 5 interconnected tables spanning sales transactions, product hierarchies, store locations, and warranty claims. This dataset enables Odyssey to answer complex business questions through natural language queries, generating instant dashboards without requiring users to understand table relationships or write SQL.
 
 # OBJECTIVES:
@@ -18,13 +20,22 @@ Odyssey is an AI-powered comprehensive retail analytics ecosystem built on 5 int
 
 
 # KEY FEATURES
-ODYSSEY is an interactive Dashboard which allows the user to know Executive Summary as well as In detail performances. Additionally, an agent to interact with dashboards using chat commands
+### 1. ODYSSEY is an interactive Dashboard which allows the user to know Executive Summary as well as In detail performances. Additionally, an agent to interact with dashboards using chat commands
+<br>
+<img width="450" height="325" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/vdfvfvfd.png" />
+<img width="450" height="325" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/sdvvdfvdf.png" /><br>
 
-ODYSSEY is an AI/BI agent which users to ask natural language questions and convert them into SQL queries on Delta tables.
+### 2. ODYSSEY is an AI/BI agent which users to ask natural language questions and convert them into SQL queries on Delta tables.
+<img width="450" height="325" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/sdsdsd.png" /><br>
 
-ODYSSSEY generates narrative summaries, KPIs and in detail performance metrics using the Data provided in real time. 
+### 3. ODYSSSEY generates narrative summaries, KPIs and in detail performance metrics using the Data provided in real time. 
+<img width="450" height="450" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/fffvvdf.png" />
+<img width="450" height="325" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/dfvvfv.png" /><br>
 
-ODYSSEY ensures validation while answering BI queries and uses LLM intelligence in enforcing governance. As a result of which the PII data secured and not compromised. 
+### 4. ODYSSEY ensures validation while answering BI queries and uses LLM intelligence in enforcing governance. As a result of which the PII data secured and not compromised. 
+<img width="450" height="325" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/fchghhvg.png" />
+<img width="450" height="325" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/ccvxcvxc.png" /><br>
 
-ODYSSEY generates Predictive/what-if analysis responses learning the curves in data and provides real time responses.
-
+### 5. ODYSSEY generates Predictive/what-if analysis responses learning the curves in data and provides real time responses.
+<img width="450" height="325" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/fvvssdsd.png" />
+<img width="450" height="325" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/chghg.png" /><br>
