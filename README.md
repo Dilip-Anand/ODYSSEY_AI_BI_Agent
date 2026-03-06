@@ -1,5 +1,5 @@
 # ODYSSEY - The Data Explorer AI/BI Agent
-Odyssey is a "Talk to your Data" application using the AI/BI Genie and Databricks Dashboards. This agent should allow business users to ask ad-hoc, natural language questions about key performance indicators (KPIs) and receive dynamic, context-aware insights, moving beyond static reports.
+Odyssey AI/BI agent is a "Talk to your Data" application using the AI/BI Genie and Databricks Dashboards. This agent should allow business users to ask ad-hoc, natural language questions about key performance indicators (KPIs) and receive dynamic, context-aware insights, moving beyond static reports.
 <br>
 
 <img width="600" height="325" alt="image" src="https://github.com/Dilip-Anand/ODYSSEY_AI_BI_Agent/blob/main/Working/fffbbdff.png" />
